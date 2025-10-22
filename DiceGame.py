@@ -1,8 +1,8 @@
 #Dice Game! Using random, roll two numbers between 1 and 6, calculate total
 import random
 
-die1 = 4
-die2 = 4
+die1 = random.randint(1, 6)
+die2 = random.randint(1, 6)
 
 total = die1 + die2
 
