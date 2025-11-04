@@ -8,7 +8,7 @@ char = ['1', '2','3', '4', '5', '6', '7', '8', '9', '0', 'a', 'b', 'c', 'd', 'e'
 amountPasswords = int(input("How many passwords do you need? "))
 amountCharacters = int(input("How long does it need to be? "))
 
-#Can I check for input data type? YES -----> isdigit
+#Can I check for input data type? YES -----> .isdigit()
 
 #Loop to create as many passwords as the user needs
 for count in range(amountPasswords):

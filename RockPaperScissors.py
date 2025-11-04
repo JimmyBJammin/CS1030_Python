@@ -21,7 +21,7 @@ while playAgain == 'y' or playAgain == 'Y':
     pChoice = input("Choose either rock (r), paper (p), or scissors (s) ->")
 
     #Will require the player to choose a valid choice
-    while not(pChoice == 'r' or pChoice == 'p' or pChoice == 's'):
+    while not(pChoice == 'r' or pChoice == 'p') or pChoice == 's'):
         print("Invalid choice. Try again.\n")
         pChoice = input("Choose either rock (r), paper (p), or scissors (s) ->")
         

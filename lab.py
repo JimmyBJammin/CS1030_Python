@@ -13,10 +13,6 @@ scores = [85, 90, 78, 88, 92]
 
 scores[2] = 100
 
-scores.append(35)
-
-scores.insert(0, 67)
-
 #Totaling the [scores] list
 total = 0
 for score in scores:
@@ -34,3 +30,4 @@ for s in scores:
 
 print("Your highest score was:" + str(highest))
 
+print(scores)
